@@ -8,8 +8,7 @@ import { DataService } from '../data-service/data.service';
     styleUrls: ['./main-page.component.scss'],
 })
 export class MainPageComponent implements OnInit, AfterViewInit {
-
-    public mainText!: string; 
+    public mainText!: string;
 
     constructor(private animationService: AnimationService, private dataService: DataService) {}
 

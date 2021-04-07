@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import * as p5 from 'p5';
-import { FlowField } from '../background/flow-field-animation'
+import { FlowField } from '../background/flow-field-animation';
 
 import { AnimationService } from '../animation-service/animation.service';
 
@@ -10,13 +10,9 @@ import { AnimationService } from '../animation-service/animation.service';
     styleUrls: ['./landing-page.component.scss'],
 })
 export class LandingPageComponent implements AfterViewInit, OnInit {
-
-
     constructor(private animationService: AnimationService) {}
 
-    public ngOnInit(){
-
-    }
+    public ngOnInit() {}
 
     public onClick(): void {
         this.animationService.scrollToMainPage();
@@ -41,18 +37,16 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
         });
 
         const sketch = (s) => {
-            const animation = new FlowField(s, () => s.color(0, 10), 255, s.windowWidth, s.windowHeight);  
+            const animation = new FlowField(s, () => s.color(0, 10), 255, s.windowWidth, s.windowHeight);
             s.setup = () => {
-              const c = s.createCanvas(s.windowWidth, s.windowHeight).parent('background-canvas');
+                const c = s.createCanvas(s.windowWidth, s.windowHeight).parent('background-canvas');
             };
-      
+
             s.draw = () => {
                 animation.draw();
             };
-          }
-          let canvas = new p5(sketch);
-          //this.backgroundContainer.nativeElement.appendChild(canvas);
-
-
+        };
+        let canvas = new p5(sketch);
+        //this.backgroundContainer.nativeElement.appendChild(canvas);
     }
 }
