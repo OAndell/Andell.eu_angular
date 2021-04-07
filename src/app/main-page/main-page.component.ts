@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { AnimationService } from '../animation-service/animation.service';
+import { DataService } from '../data-service/data.service';
 
 @Component({
     selector: 'main-page',
@@ -7,12 +8,17 @@ import { AnimationService } from '../animation-service/animation.service';
     styleUrls: ['./main-page.component.scss'],
 })
 export class MainPageComponent implements OnInit, AfterViewInit {
-    constructor(private animationService: AnimationService) {}
 
-    public ngOnInit() {}
+    public mainText!: string; 
+
+    constructor(private animationService: AnimationService, private dataService: DataService) {}
+
+    public ngOnInit() {
+        this.mainText = this.dataService.getMainText();
+    }
 
     public ngAfterViewInit() {
-        const gsap = this.animationService.getGsap();
+        /*const gsap = this.animationService.getGsap();
         gsap.to('.main-text', 0, { x: 100 });
         gsap.to('.word-cloud', 0, { y: -100 });
         gsap.to('.profile-card', 0, { x: -100 });

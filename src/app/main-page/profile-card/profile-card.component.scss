@@ -1,10 +1,9 @@
+@import '../../../styles.scss';
+
 .profile-card {
     color: white;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     width: 30vw;
-    margin: 20px;
 
     a {
         color: white;
@@ -13,20 +12,31 @@
 }
 
 
-
-.photo {
-    background: url('../../../assets/oscar.jpg');
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    filter: grayscale(50%);
-    border-radius:25px;
+.photo-wrapper {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0,0 , 0.8);
+    border-radius: 5px;
+    .photo {
+        background: url('../../../assets/oscar.jpg');
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        filter: grayscale(50%);
+        border-radius:25px;
+        margin: auto;
+        background-color: rgba(0, 0,0 , 0.7);
+    }
 }
 
+
 .data {
-    margin-top: 10px;
     font-size: 17px;
     text-align: start;
+    background-color: rgba(0, 0,0 , 0.8);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .bullet-list {
@@ -34,15 +44,15 @@
 }
 
 .arrow {
-    color: #8400FF;
+    color: $accent3;
 }
 
 .orange {
-    color: #FF5900;
+    color: $accent1;
 }
 
 .function {
-    color: #ffbb00;
+    color: $accent2;
 }
 
 

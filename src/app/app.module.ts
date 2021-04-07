@@ -7,7 +7,6 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { ProfileCardComponent } from './main-page/profile-card/profile-card.component';
 import { WordCloudComponent } from './main-page/word-cloud/word-cloud.component';
 import { AboutPageComponent } from './about-page/about-page.component';
-import { HeaderComponent } from './header/header.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +16,6 @@ import { HeaderComponent } from './header/header.component';
         ProfileCardComponent,
         WordCloudComponent,
         AboutPageComponent,
-        HeaderComponent,
     ],
     imports: [BrowserModule],
     providers: [],
