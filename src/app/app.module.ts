@@ -9,14 +9,7 @@ import { WordCloudComponent } from './main-page/word-cloud/word-cloud.component'
 import { AboutPageComponent } from './about-page/about-page.component';
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        LandingPageComponent,
-        MainPageComponent,
-        ProfileCardComponent,
-        WordCloudComponent,
-        AboutPageComponent,
-    ],
+    declarations: [AppComponent, LandingPageComponent, MainPageComponent, ProfileCardComponent, WordCloudComponent, AboutPageComponent],
     imports: [BrowserModule],
     providers: [],
     bootstrap: [AppComponent],
