@@ -1,3 +1,5 @@
+@import '../../styles.scss';
+
 .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -8,22 +10,23 @@
 .opening-text {
     text-align: center;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     margin: 10px;
-    text-shadow: 2px 2px 0px black /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    text-shadow: 2px 2px 0px black; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 }
 
 .name {
-    //color: #282123;
+    color: $accent3;
     font-weight: bold;
 }
 
 .opening-text-wrapper {
-
-
     margin-top: 80px;
     max-width: 500px;
-    font-family: fantasy; 
+    background-color: black;
+    border: 2px solid #fff;
+    opacity: 0.8;
+    padding: 10px
 }
 
 .button {
@@ -66,23 +69,13 @@
     overflow: hidden;
 
 }
-.sun {
-    width: 300px;
-    height: 300px;
-    position: fixed;
-    left: calc(70% - 150px);
-    top: calc(25% - 150px);
-
-    background-color: #A22C24;
-    border-radius: 50%;
-}
 
 .layer-bg {
     display: flex;
-    background-image:
+    /*background-image:
              repeating-conic-gradient(
                 from 3deg at 70% 25%,
-                 #A22C24 1% 9deg, #EBD2B8 9deg 18deg);
+                 #A22C24 1% 9deg, #EBD2B8 9deg 18deg);*/
 
     justify-content: center;
     

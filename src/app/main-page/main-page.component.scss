@@ -1,8 +1,6 @@
 .main-page-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #111;
     height: 100%;
     width: 100%;
     font-family: monospace; 
@@ -22,13 +20,12 @@
 
 .right-col{
     width: 100%;
+    padding-right: 10px;
 }
 
 .main-text {
     text-align: center;
     font-size: x-large;
-    margin: 10px;
-    opacity: 0;
 }
 
 
@@ -36,4 +33,7 @@
     border-radius: 5px;
     color: white;
     text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    margin: 20px;
+    padding: 20px;
 }

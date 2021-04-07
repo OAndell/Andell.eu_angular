@@ -96,7 +96,7 @@ export class DataService {
             employer: 'Vizlib',
             linkedIn: {
                 text: 'LinkedIn',
-                url: '',
+                url: 'https://www.linkedin.com/in/oscar-andell-156ba0138/?locale=en_US',
             },
             github: {
                 text: 'github/oandell',
@@ -108,5 +108,11 @@ export class DataService {
             },
             email: 'Oscar@andell.eu',
         };
+    }
+
+    public getMainText(): string {
+        return `
+        Oscar is a dedicated software engineer and despite being early in his professional career, he has experience from a wide range of projects. Some of these experiences include developing and publishing a successful Android app, having the role of a software architect in a larger student project and first-hand experience of all layers of the software stack. From frontend design to backend and database modelling.  Aside from his previous experiences, Oscar is committed to becoming a more experienced developer. He is eager for new experiences and to learn new technologies and he is confident that he would be a valuable asset to any team. 
+        `;
     }
 }

@@ -1,11 +1,15 @@
+@import '../../../styles.scss';
+
 :host {
-    width: 100%;
-    margin: 0;
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0;
+    background: rgba(0, 0,0 , 0.8);
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+
 }
 
 ul.cloud {
@@ -53,8 +57,8 @@ ul.cloud {
     font-size: 1rem;
   }
   
-  ul.cloud li:nth-child(2n+1) a { --color: #FF5900; }
-  ul.cloud li:nth-child(3n+1) a { --color: #8400FF; }
+  ul.cloud li:nth-child(2n+1) a { color: $accent1; }
+  ul.cloud li:nth-child(3n+1) a { color: $accent3; }
   
   
 
