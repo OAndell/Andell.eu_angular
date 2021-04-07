@@ -112,7 +112,25 @@ export class DataService {
 
     public getMainText(): string {
         return `
-        Oscar is a dedicated software engineer and despite being early in his professional career, he has experience from a wide range of projects. Some of these experiences include developing and publishing a successful Android app, having the role of a software architect in a larger student project and first-hand experience of all layers of the software stack. From frontend design to backend and database modelling.  Aside from his previous experiences, Oscar is committed to becoming a more experienced developer. He is eager for new experiences and to learn new technologies and he is confident that he would be a valuable asset to any team. 
-        `;
+       
+<p>I am a professional software developer & engineer currently delivering frontend solutions 
+for Vizlib in Stockholm, Sweden.  Even though my professional focus at the moment 
+is React and Angular, I have a passion for the entire tech stack,
+ from the UI to the database. Check out some of my projects!
+</p>
+<p>
+One project I would like to highlight is Riksdagskollen! 
+(Unfortunately only available in Swedish). 
+It is a project I started in university to learn more about Android and mobile development.
+Over the years it grew into quite a successful app (Currently 4.6 on Playstore), 
+which I and together with a friend continue to maintain and develop.
+</p>
+<p>
+I feel like I have only just dipped my toes in the water when it comes to this industry, and I am already loving the international setting, the challenges, and the amazing people it offers.  I can't wait to see what technologies, opportunities, and interesting problems lies in the future! 
+</p>
+<p>
+Feel free to connect through LinkedIn or send me an Email! '
+</p>
+Oscar Andell      `;
     }
 }
