@@ -40,6 +40,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             const animation = new FlowField(s, () => s.color(0, 10), 255, s.windowWidth, s.windowHeight);
             s.setup = () => {
                 const c = s.createCanvas(s.windowWidth, s.windowHeight).parent('background-canvas');
+                //s.strokeWeight(1.5);
             };
 
             s.draw = () => {

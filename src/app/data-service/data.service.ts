@@ -129,7 +129,7 @@ which I and together with a friend continue to maintain and develop.
 I feel like I have only just dipped my toes in the water when it comes to this industry, and I am already loving the international setting, the challenges, and the amazing people it offers.  I can't wait to see what technologies, opportunities, and interesting problems lies in the future! 
 </p>
 <p>
-Feel free to connect through LinkedIn or send me an Email! '
+Feel free to connect through LinkedIn or send me an Email!
 </p>
 Oscar Andell      `;
     }
