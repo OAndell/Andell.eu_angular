@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     background: rgba(0, 0,0 , 0.8);
-    border: 2px solid white;
     border-radius: 5px;
     margin: 20px;
     padding: 20px;
@@ -21,13 +20,10 @@ ul.cloud {
     justify-content: center;
     line-height: 2.75rem;
     width: 80%;
+    cursor:default;
   }
   
   ul.cloud a {
-    /*   
-    Not supported by any browser at the moment :(
-    --size: attr(data-weight number); 
-    */
     --size: 4;
     --color: #FFFFFF;
     color: var(--color);
@@ -36,12 +32,16 @@ ul.cloud {
     padding: 0.125rem 0.25rem;
     position: relative;
     text-decoration: none;
-    /* 
-    For different tones of a single color
-    opacity: calc((15 - (9 - var(--size))) / 15); 
-    */
   }
   
+  @media only screen and (max-width: 600px) {
+    ul.cloud a {
+      font-size: calc(var(--size) * 0.15rem + 0.5rem);
+
+    }
+
+  }
+
   ul.cloud a[data-weight="1"] { --size: 1; }
   ul.cloud a[data-weight="2"] { --size: 2; }
   ul.cloud a[data-weight="3"] { --size: 3; }
@@ -60,10 +60,4 @@ ul.cloud {
   ul.cloud li:nth-child(2n+1) a { color: $accent1; }
   ul.cloud li:nth-child(3n+1) a { color: $accent3; }
   
-  
-
-  
-  ul.cloud a:hover {
-    transform: scale(1.1);
-  }
   

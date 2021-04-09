@@ -112,14 +112,13 @@ export class DataService {
 
     public getMainText(): string {
         return `
-       
 <p>I am a professional software developer & engineer currently delivering frontend solutions 
 for Vizlib in Stockholm, Sweden.  Even though my professional focus at the moment 
 is React and Angular, I have a passion for the entire tech stack,
  from the UI to the database. Check out some of my projects!
 </p>
 <p>
-One project I would like to highlight is Riksdagskollen! 
+One project I would like to highlight is <a href="https://play.google.com/store/apps/details?id=se.oandell.riksdagen&hl=sv&gl=US"><strong>Riksdagskollen!</strong></a>
 (Unfortunately only available in Swedish). 
 It is a project I started in university to learn more about Android and mobile development.
 Over the years it grew into quite a successful app (Currently 4.6 on Playstore), 
@@ -131,6 +130,7 @@ I feel like I have only just dipped my toes in the water when it comes to this i
 <p>
 Feel free to connect through LinkedIn or send me an Email!
 </p>
-Oscar Andell      `;
+Oscar Andell
+     `;
     }
 }

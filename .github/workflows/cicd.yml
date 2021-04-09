@@ -24,6 +24,9 @@ jobs:
          ng build --prod --base-href="./Andell.eu_angular"
     - name: Deploys
       uses: JamesIves/github-pages-deploy-action@releases/v2
+      with:
+        clean-exclude: |
+              CNAME
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master

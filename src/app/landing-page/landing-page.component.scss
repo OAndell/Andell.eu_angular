@@ -72,51 +72,12 @@
 
 .layer-bg {
     display: flex;
-    /*background-image:
-             repeating-conic-gradient(
-                from 3deg at 70% 25%,
-                 #A22C24 1% 9deg, #EBD2B8 9deg 18deg);*/
-
     justify-content: center;
     
 }
-.layer-1 {
-	background-image: url('../../assets/layers/skyline.png');
-    display: flex;
-    justify-content: center;
-    background-size: contain;
-}
-.layer-2 {    
-    background-image: url('../../assets/layers/flag-smaller.svg');
-
-    background-size: contain;
-    width: 50vw; 
-    right: 30%;
-
-}
-.layer-3 {
-
-    background-size: contain;
-	background-image: url('../../assets/layers/flag3-logo.svg');
-    //bottom: 0;
-    width: 50vw;    
-    right: 0px;
-
-
-}
-
-
-.layer-4 {
-    background-image: url('../../assets/layers/logos2_black.svg');
-   // bottom: 0;
-    background-size: contain;
-    width: 50vw;
-    //bottom: -70px;
-    right: 0px;
 
 
 
-}
 .layer-5 {
 	background-position: left bottom;
     //bottom: 0;
