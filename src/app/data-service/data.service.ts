@@ -41,7 +41,7 @@ export class DataService {
             },
             {
                 name: 'React',
-                level: 3,
+                level: 4,
             },
             {
                 name: 'Java',
@@ -85,7 +85,7 @@ export class DataService {
             },
             {
                 name: 'Kotlin',
-                level: 2,
+                level: 3,
             },
         ];
     }
@@ -118,13 +118,6 @@ is React and Angular, I have a passion for the entire tech stack,
  from the UI to the database. Check out some of my projects!
 </p>
 <p>
-One project I would like to highlight is <a href="https://play.google.com/store/apps/details?id=se.oandell.riksdagen&hl=sv&gl=US"><strong>Riksdagskollen!</strong></a>
-(Unfortunately only available in Swedish). 
-It is a project I started in university to learn more about Android and mobile development.
-Over the years it grew into quite a successful app (Currently 4.6 on Playstore), 
-which I and together with a friend continue to maintain and develop.
-</p>
-<p>
 I feel like I have only just dipped my toes in the water when it comes to this industry, and I am already loving the international setting, the challenges, and the amazing people it offers.  I can't wait to see what technologies, opportunities, and interesting problems lies in the future! 
 </p>
 <p>
@@ -132,5 +125,24 @@ Feel free to connect through LinkedIn or send me an Email!
 </p>
 Oscar Andell
      `;
+    }
+    public getAboutText(): string {
+        return `Created this website, mostly because I thought I created a cool background effect and wanted to use it for something. It went through a few itterations and is still under development. It could still use some polish, but perfection is usually the enemy of actually releasing something!        `;
+    }
+
+    public getShowCaseText(): string {
+        return `<h3>Riksdagskollen </h3>
+        <div style="display: flex; flex-direction: row; justify-content: space-around; flex-flow: wrap;">
+            <p style="flex: 1;">
+                One project I would like to highlight is <a href="https://play.google.com/store/apps/details?id=se.oandell.riksdagen&hl=sv&gl=US"><strong>Riksdagskollen!</strong></a>
+                (Unfortunately only available in Swedish). 
+                It is a project I started in university to learn more about Android and mobile development.
+                 Over the years it grew into quite a successful app (Currently 4.6 on Playstore), 
+                 which I and together with a friend continue to maintain and develop
+            </p>
+            <img class="text-image" src="https://raw.githubusercontent.com/OAndell/Riksdagskollen/master/screenshots/menu.png">    
+        </div>
+        
+            `;
     }
 }
