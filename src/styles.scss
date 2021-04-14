@@ -21,4 +21,10 @@ a {
     height: 300px;
     object-fit: cover;
     object-position: top;
+    filter: brightness(0.7);
 }
+
+.text-image:hover{
+   filter: none;
+}
+
