@@ -23,7 +23,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
 
         const tl = gsap.timeline({
             scrollTrigger: {
-                trigger: '#hero',
+                trigger: '#lading-page',
                 start: 'top top',
                 end: 'bottom top',
                 scrub: true,
@@ -47,6 +47,5 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             };
         };
         let canvas = new p5(sketch);
-        //this.backgroundContainer.nativeElement.appendChild(canvas);
     }
 }

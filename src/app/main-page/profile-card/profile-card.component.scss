@@ -14,10 +14,7 @@
 
 
 .photo-wrapper {
-    margin: 20px;
-    padding: 20px;
-    background-color: rgba(0, 0,0 , 0.8);
-    border-radius: 5px;
+    @include box;
     .photo {
         background: url('../../../assets/oscar.jpeg');
         background-size: cover;
@@ -36,10 +33,7 @@
 .data {
     font-size: 17px;
     text-align: start;
-    background-color: rgba(0, 0,0 , 0.8);
-    border-radius: 5px;
-    margin: 20px;
-    padding: 20px;
+    @include box;
 }
 
 .bullet-list {

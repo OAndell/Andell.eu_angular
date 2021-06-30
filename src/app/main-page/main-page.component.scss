@@ -1,3 +1,5 @@
+@import '../../styles.scss';
+
 .main-page-wrapper {
     display: flex;
     justify-content: center;
@@ -31,11 +33,8 @@
 }
 
 
-.opening-text-wrapper {
-    border-radius: 5px;
-    color: white;
+.main-text-wrapper {
     text-align: center;
-    background-color: rgba(0,0,0,0.8);
-    margin: 20px;
-    padding: 20px;
+    color: white;
+    @include box;
 }

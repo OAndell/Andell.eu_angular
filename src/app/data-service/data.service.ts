@@ -87,6 +87,10 @@ export class DataService {
                 name: 'Kotlin',
                 level: 3,
             },
+            {
+                name: 'SCSS/SASS',
+                level: 5,
+            },
         ];
     }
 
