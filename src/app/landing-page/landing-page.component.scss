@@ -60,7 +60,9 @@
 
 @media only screen and (max-width: 600px) {
     #background-canvas {
-        background-image: url(../../assets/mobile-background.png);
+        background-image: url(../../assets/mobile-background2.png);
+        background-size: cover;
+        background-position: center;
         width: 100%;
         height: 100%;
     }

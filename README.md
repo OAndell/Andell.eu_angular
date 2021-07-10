@@ -1,27 +1,4 @@
-# AndellEu
+# Oscar.Andell.eu
+My personal webpage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The idea behind the project was to set up a continuously deploying app that I could edit and update easily. The "posts/text-content" are written as HTML files, which are read as strings and then injected into the app. Thus creating new sections and posts require very little refactoring. The benefit with using html files as input, is  that they allow for great flexibility of the content. I can make each post distinct, with images, styling and sub headers, without the need to create a lot of custom angular components. 
