@@ -1,4 +1,6 @@
 
+@import '../styles.scss';
+
 .landing-page {
   height: 100vh;
   width: 100vw;
@@ -8,23 +10,9 @@
   width: 100vw;
 }
 
-
 .container {
   overflow: hidden;
 }
-
-.header {
-  background-color: #ff6512;
-  height: 30px;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  display: flex;
-  justify-content: space-around;
-  color: white;
-  padding-top: 20px;
-}
-
 
 .sticky {
   position: fixed;
