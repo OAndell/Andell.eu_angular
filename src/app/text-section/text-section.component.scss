@@ -1,12 +1,11 @@
 @import '../../styles.scss';
 
-:host{
+:host {
     width: 100%;
     height: 100%;
     display: flex;
     color: white;
 }
-
 
 .content {
     display: flex;
@@ -14,14 +13,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .content  {
+    .content {
         flex-direction: column !important;
         justify-content: flex-start !important;
     }
-
 }
 .title {
-    font-size: 4em;
+    font-size: 2.5em;
     color: $accent3;
     height: fit-content;
     @include box;

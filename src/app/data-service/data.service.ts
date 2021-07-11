@@ -3,6 +3,7 @@ import { ProfileData, SkillItem } from './data.model';
 import mainTemplate from './content/main.html';
 import showCaseTemplate from './content/show-case.html';
 import aboutTemplate from './content/about.html';
+import generativeArtTemplate from './content/art.html';
 
 @Injectable({
     providedIn: 'root',
@@ -122,6 +123,10 @@ export class DataService {
     }
     public getAboutText(): string {
         return aboutTemplate;
+    }
+
+    public getGenArtText(): string {
+        return generativeArtTemplate;
     }
 
     public getShowCaseText(): string {

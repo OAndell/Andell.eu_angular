@@ -1,8 +1,6 @@
-$accent1: #FF5900;
-$accent2: #F5ECB6;
-$accent3: #54A5AE;
-
-
+$accent1: #ff5900;
+$accent2: #f5ecb6;
+$accent3: #54a5ae;
 
 body {
     overflow-x: hidden;
@@ -24,13 +22,13 @@ a {
     filter: brightness(0.7);
 }
 
-.text-image:hover{
-   filter: none;
+.text-image:hover {
+    filter: none;
 }
 
 @mixin box {
     border-radius: 6px;
-    background-color: rgba(0, 0,0 , 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     margin: 20px;
     padding: 20px;
 }

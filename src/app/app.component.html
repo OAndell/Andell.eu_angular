@@ -1,14 +1,15 @@
 <div class="container">
     <section class="section landing-page">
-      <landing-page></landing-page>
+        <landing-page></landing-page>
     </section>
     <section class="section main-page">
         <main-page></main-page>
-    </section>  
+    </section>
     <section class="section main-page">
-      <text-section [title]="'Showcase'" [text]="showCaseText" [reverse]="true"></text-section>
-  </section>  
-  <section class="section main-page">
-    <text-section [title]="'About'" [text]="aboutText" [reverse]="false"></text-section>
-</section>
+        <text-section [title]="'Riksdagskollen'" [text]="dataService.getShowCaseText()" [reverse]="true"></text-section>
+        <text-section [title]="'Generative Art'" [text]="dataService.getGenArtText()" [reverse]="false"></text-section>
+    </section>
+    <section class="section main-page">
+        <text-section [title]="'About'" [text]="dataService.getAboutText()" [reverse]="true"></text-section>
+    </section>
 </div>

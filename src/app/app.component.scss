@@ -1,24 +1,23 @@
-
 @import '../styles.scss';
 
 .landing-page {
-  height: 100vh;
-  width: 100vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 .main-page {
-  width: 100vw;
+    width: 100vw;
 }
 
 .container {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .sticky {
-  position: fixed;
+    position: fixed;
 }
 
 .main-page {
-  margin: auto;
-  max-width: 1200px;
+    margin: auto;
+    max-width: 1200px;
 }

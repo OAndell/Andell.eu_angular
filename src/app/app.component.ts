@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
     @ViewChild('dummyHeader')
     public dummyHeaderElement!: ElementRef;
 
-    constructor(private dataService: DataService) {}
+    constructor(public dataService: DataService) {}
 
     public ngOnInit() {
         this.aboutText = this.dataService.getAboutText();

@@ -5,10 +5,10 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    font-family: monospace; 
+    font-family: monospace;
 }
 @media only screen and (max-width: 600px) {
-    .main-page-wrapper  {
+    .main-page-wrapper {
         flex-direction: column;
         justify-content: flex-start;
     }
@@ -18,11 +18,9 @@
         margin: 0;
         padding: 0;
     }
-
 }
 
-
-.right-col{
+.right-col {
     width: 100%;
     padding-right: 10px;
 }
@@ -31,7 +29,6 @@
     text-align: initial;
     font-size: 14px;
 }
-
 
 .main-text-wrapper {
     text-align: center;
