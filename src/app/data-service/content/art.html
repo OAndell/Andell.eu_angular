@@ -6,17 +6,29 @@
     The site background, (which is static on mobile for perforamce reasons), is made of particles traveling in a noise field. The feild can
     be seen as a terrains with peaks and valleys in which the particels to "flow" in the least steep direction, causing this effect.
 </p>
-<div style="display: flex; flex-wrap: wrap">
-    <div style="display: flex; flex-direction: column; margin: 10px; max-width: 300px">
-        <img style="max-width: 300px" src="../../../assets/flow-field.png" />
+<div style="display: flex; flex-wrap: wrap; text-align: center">
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 260px; height: 150px">
+        <img
+            style="cursor: pointer; object-fit: cover; height: 130px"
+            src="../../../assets/flow-field.png"
+            onclick="window.open(this.src)"
+        />
         <div>Changing noise field.</div>
     </div>
-    <div style="display: flex; flex-direction: column; margin: 10px; max-width: 200px">
-        <img style="max-width: 200px" src="https://raw.githubusercontent.com/OAndell/Image-to-bubbles/master/exampleImage.png" />
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 260px; height: 150px">
+        <img
+            style="cursor: pointer; object-fit: cover; object-position: 0 -45px; height: 130px"
+            src="https://raw.githubusercontent.com/OAndell/Image-to-bubbles/master/exampleImage.png"
+            onclick="window.open(this.src)"
+        />
         Algorithm to convert an image to colored bubbles.
     </div>
-    <div style="display: flex; flex-direction: column; margin: 10px">
-        <img style="width: 250px" src="../../../assets/genArt.png" />
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 260px; height: 150px">
+        <img style="cursor: pointer; object-fit: cover; height: 130px" src="../../../assets/genArt.png" onclick="window.open(this.src)" />
         <div>Fractal Tree</div>
+    </div>
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 260px; height: 150px">
+        <img style="cursor: pointer; object-fit: cover; height: 130px" src="../../../assets/red.png" onclick="window.open(this.src)" />
+        Static noise field
     </div>
 </div>
