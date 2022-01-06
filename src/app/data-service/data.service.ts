@@ -45,7 +45,7 @@ export class DataService {
             },
             {
                 name: 'React',
-                level: 4,
+                level: 8,
             },
             {
                 name: 'Java',
@@ -100,8 +100,8 @@ export class DataService {
 
     public getProfileData(): ProfileData {
         return {
-            location: 'Stockholm',
-            employer: 'Vizlib',
+            location: 'Barcelona',
+            employer: 'Lodgify',
             linkedIn: {
                 text: 'LinkedIn',
                 url: 'https://www.linkedin.com/in/oscar-andell-156ba0138/?locale=en_US',
